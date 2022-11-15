@@ -7,11 +7,11 @@ header{
     display:flex;
     align-items: center;
     justify-content: center;
-    background-color: black;
+    background-color:linear-gradient(rgba(0,0,0,1) 22%, rgba(255,102,0,1) 100%);
 }
 
 header>img{
-    width: 150px;
+    width: 400px;
     height: 130px;
 }
 
@@ -26,7 +26,7 @@ header:hover{
     align-items: center;
 /*     height: Calc(100vh -18vh); */
     height: 8vh;
-    background-color:azure
+    background-color:linear-gradient(rgba(0,0,0,1) 3%, rgba(255,102,0,1) 100%);
 }
 
 a{
@@ -41,22 +41,26 @@ a{
     border: 1px black solid;
     padding: 5px;
 /*     margin:10px; */
-    background: linear-gradient(to bottom, #00ff99 0%, #ccffff 100%);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 22%, rgba(255,179,0,1) 100%);
     border-radius: 30px;
-    box-shadow: 3px 3px#4b6f61;
+    box-shadow: 2px 2px rgb(56, 26, 1);
 
     font-size: 10px;
 }
 
 .efectosnav:hover {
-    background: linear-gradient(to bottom, #ffff99 0%, #ccffff 100%);
-    color: red;
+    background: linear-gradient(90deg, rgba(0,86,255,1) 22%, rgba(0,255,25,1) 100%);
+    color: blue;
 }
 
 body{
-    background: linear-gradient(to bottom, #00ff99 0%, #ccffff 100%);
+    background: linear-gradient(rgba(0,0,0,1) 22%, rgba(255,102,0,1) 100%);
     width: 100vw;
     height: 100vh;
+}
+
+h1{
+    color:rgb(216, 166, 3)
 }
 
 img{
