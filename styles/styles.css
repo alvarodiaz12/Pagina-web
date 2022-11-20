@@ -13,6 +13,7 @@ header{
 header>img{
     width: 400px;
     height: 130px;
+    border-style: solid;
 }
 
 header:hover{
@@ -55,6 +56,17 @@ body{
 h1{
     color:rgb(216, 166, 3)
 }
+
+img{
+    border-style: solid;
+    border-color: aliceblue;
+    transition: all 0.5s ease;
+}
+
+img:hover{
+    transform: scale(0.9);
+}
+
 
 .principal{
     display: flex;

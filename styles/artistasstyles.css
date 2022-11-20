@@ -57,6 +57,14 @@ h1{
     color:rgb(216, 166, 3)
 }
 
+img{
+    transition: all 0.5s ease;
+}
+
+img:hover{
+    transform: scale(0.9);
+}
+
 .principal{
     display: flex;
 }
@@ -124,18 +132,26 @@ h1{
       100% {stroke-dashoffset: -35%;}
   }
 
-.hijocentral{
+.centro{
     display: flex;
     flex-direction: column;
-    width: 91.7%;
-    height: 1000px;
+    width: 60%;
+    height: 100%;
     padding: 2%;
-    margin-top: 7%;
+    margin-top: 10%;
+    display: block;
+    margin-left: 24%;
 }
 
-.hijocentral>img{
-    -webkit-transform: rotate(360deg);transform: rotate(360deg);
+.centro img:hover {
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 15px 15px rebeccapurple;
+    -webkit-box-shadow: 0px 0px 15px 15px rebeccapurple;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
 }
+
 
 
 
@@ -145,7 +161,6 @@ h1{
         display:flex;
         flex-direction: column;
         justify-content: space-around;
-        align-items: center;
         height: 50vh;
         background-color: rgb(238, 209, 26);
     }

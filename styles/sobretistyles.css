@@ -88,12 +88,12 @@ h1{
     width: 91.7%;
     height: auto;
     padding: 2%;
-    background-color:azure
+    background-color:azure;
+    border-style: solid;
 }
 
 .hijocentral1{
     display: flex;
-    border: 1px black;
     width: 100%;
     height: 500px;
 }
@@ -101,11 +101,12 @@ h1{
 .hijocentral1A{
     display: flex;
     flex-direction:column;
-    width: 50%;
+    width: 47%;
     height: 100%;
     color:black;
     font-size: 100%;
     margin-right: 1%;
+    border-style: solid;
 }
 
 .hijocentral1A>p{
@@ -124,6 +125,7 @@ h1{
     color:black;
     font-size: 100%;
     margin-left: 1%;
+    border-style: solid;
 }
 
 .hijocentral1B>p{
@@ -131,13 +133,12 @@ h1{
 }
 
 .hijocentral1B>button{
-    margin-top: 9%;
+    margin-top: 7.2%;
 }
 
 
 .hijocentral2{
     display: flex;
-    border: 1px black;
     width: 100%;
     height: 500px;
 }
@@ -151,6 +152,8 @@ h1{
     color:black;
     font-size: 100%;
     margin-right: 1%;
+    border-style: solid;
+    margin-top: 2%;
 }
 
 .hijocentral2A>p{
@@ -169,6 +172,8 @@ h1{
     color:black;
     font-size: 100%;
     margin-left: 1%;
+    border-style: solid;
+    margin-top: 2%;
 }
 
 .hijocentral2B>p{
@@ -180,7 +185,7 @@ h1{
 }
 
 .hijocentral2B>button{
-    margin-top: 12.4%;
+    margin-top: 12%;
 }
 
 @media screen and (max-width: 480px) {
@@ -190,11 +195,7 @@ h1{
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        height: 50vh;
-       /*  height: 8vh; */
-        
-    
-        background-color: rgb(238, 209, 26);
+        height: 50vh;background-color: rgb(238, 209, 26);
     }
     .efectosnav{
         margin: 5px;
