@@ -111,10 +111,12 @@ h1{
 
 .hijocentral1A>p{
     margin-top: 3%;
+    margin-left: 3%;
 }
 
 .hijocentral1A>button{
     margin-top: 5.7%;
+    vertical-align: middle;
 }
 
 .hijocentral1B{
@@ -126,14 +128,17 @@ h1{
     font-size: 100%;
     margin-left: 1%;
     border-style: solid;
+    vertical-align: middle;
 }
 
 .hijocentral1B>p{
     margin-top: 3%;
+    margin-left: 3%;
 }
 
 .hijocentral1B>button{
     margin-top: 7.2%;
+    vertical-align: middle;
 }
 
 
@@ -158,10 +163,12 @@ h1{
 
 .hijocentral2A>p{
     margin-top: 3%;
+    margin-left: 3%;
 }
 
 .hijocentral2A>button{
     margin-top: 16.5%;
+    vertical-align: middle;
 }
 
 .hijocentral2B{
@@ -178,6 +185,7 @@ h1{
 
 .hijocentral2B>p{
     margin-top: 3%;
+    margin-left: 3%;
 }
 
 .hijocentral2B>textarea{
@@ -186,6 +194,7 @@ h1{
 
 .hijocentral2B>button{
     margin-top: 12%;
+    vertical-align: middle;
 }
 
 @media screen and (max-width: 480px) {
