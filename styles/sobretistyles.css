@@ -21,7 +21,6 @@ header:hover{
 
 .navegacion{
     display:flex;
-
     justify-content: space-around;
     align-items: center;
     height: 8vh;
@@ -30,22 +29,37 @@ header:hover{
 
 a{
     text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color:white;
 }
 
 .efectosnav{
     border: 1px black solid;
     padding: 5px;
-    background: linear-gradient(90deg, rgba(255,0,0,1) 22%, rgba(255,179,0,1) 100%);
+    background: linear-gradient( rgba(255,0,0,1) 22%, rgba(255,179,0,1) 100%);
     border-radius: 30px;
     box-shadow: 2px 2px rgb(56, 26, 1);
-
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .efectosnav:hover {
-    background: linear-gradient(90deg, rgba(0,86,255,1) 22%, rgba(0,255,25,1) 100%);
-    color: blue;
+    background: linear-gradient( rgba(255,179,0,1), rgba(255,0,0,1) 100%);
+    transform: scale(0.9);
 }
+
+img{
+    border-style: solid;
+    border-color: aliceblue;
+    transition: all 0.5s ease;
+}
+
+img:hover{
+    transform: scale(0.9);
+}
+
 
 body{
     background: linear-gradient(rgba(0,0,0,1) 1%, rgba(255,102,0,1) 100%);
@@ -193,7 +207,7 @@ h1{
 }
 
 .hijocentral2B>button{
-    margin-top: 12%;
+    margin-top: 12.5%;
     vertical-align: middle;
 }
 

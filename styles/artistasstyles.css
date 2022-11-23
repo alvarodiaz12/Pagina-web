@@ -29,22 +29,25 @@ header:hover{
 
 a{
     text-decoration: none;
+    color: black;
 }
 
+a:hover{
+    color:white;
+}
 
 .efectosnav{
     border: 1px black solid;
     padding: 5px;
-    background: linear-gradient(90deg, rgba(255,0,0,1) 22%, rgba(255,179,0,1) 100%);
+    background: linear-gradient( rgba(255,0,0,1) 22%, rgba(255,179,0,1) 100%);
     border-radius: 30px;
     box-shadow: 2px 2px rgb(56, 26, 1);
-
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .efectosnav:hover {
-    background: linear-gradient(90deg, rgba(0,86,255,1) 22%, rgba(0,255,25,1) 100%);
-    color: blue;
+    background: linear-gradient( rgba(255,179,0,1), rgba(255,0,0,1) 100%);
+    transform: scale(0.9);
 }
 
 body{
@@ -58,6 +61,8 @@ h1{
 }
 
 img{
+    border-style: solid;
+    border-color: aliceblue;
     transition: all 0.5s ease;
 }
 
@@ -88,10 +93,12 @@ img:hover{
   
   svg {
       display: block;
-      font: 10.5em 'Montserrat';
-      width: 960px;
-      height: 300px;
+      font: 19em 'Montserrat';
+      width: 1000px;
+      height: 200px;
       margin: 0 auto;
+      margin-top: 25%;
+      margin-bottom: 15%;
   }
   
   .text-copy {
