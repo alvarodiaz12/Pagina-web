@@ -5,27 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejemplo de flex</title>
-    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/gruuposstyles.css">
 </head>
 <body>
     <header>
-        <img src="i"></img>
+        <img src="./imagenes/Logo.png"></img>
     </header>
     <nav class="navegacion">
         <p class="efectosnav"><a href="./index.html">Inicio</a></p>
         <p class="efectosnav"><a href="./artistas.html">Artistas</a></p>
-        <p class="efectosnav"><a href="./grupos.html">Grupos</a></p>
+        <p class="efectosnav"><a href="./grupos.html">Bandas</a></p>
         <p class="efectosnav"><a href="./noticias.html">Noticias</a></p>
         <p class="efectosnav"><a href="./conciertos.html">Conciertos</a></p>
         <p class="efectosnav"><a href="./sobreti.html">Sobre ti</a></p>
     </nav>
 
-    <h1>Inicio</h1>
-    <div class="imagen">
-       <div> <img src="images/relax.jpg"> </div>
-        <img src="images/relax.jpg">
-        <img src="images/relax.jpg">
-    </div>
-
+    <section class="principal">
+        <article class="central">
+            <div class="hijocentralletra">
+                <svg viewBox="0 0 960 300">
+                    <symbol id="s-text">
+                      <text text-anchor="middle" x="50%" y="80%">Bandas</text>
+                    </symbol>
+                
+                    <g class = "g-ants">
+                      <use xlink:href="#s-text" class="text-copy"></use>
+                      <use xlink:href="#s-text" class="text-copy"></use>
+                      <use xlink:href="#s-text" class="text-copy"></use>
+                      <use xlink:href="#s-text" class="text-copy"></use>
+                      <use xlink:href="#s-text" class="text-copy"></use>
+                    </g>
+                </svg>
+            </div>
+            <div class="centro">
+                <p>Imagine Dragons</p>
+                <a title="Wikipedia" href="https://es.wikipedia.org/wiki/Imagine_Dragons">
+                    <img src="./imagenes/ImagineDragons2.jpg"
+                    alt="ImagineDragons" /></img></a>
+                <div class="espacio"></div>
+                <p>Måneskin</p>
+                <a title="Wikipedia" href="https://es.wikipedia.org/wiki/M%C3%A5neskin">
+                    <img src="./imagenes/Maneskin2.jpg"
+                    alt="Maneskin" /></img></a>
+                <div class="espacio"></div>
+                <p>Queen</p>
+                <a title="Wikipedia" href="https://es.wikipedia.org/wiki/Queen">
+                    <img src="./imagenes/Queen2.jpg"
+                    alt="Queen" /></img></a>
+                <div class="espacio"></div>
+                <p>ACDC</p>
+                <a title="Wikipedia" href="https://es.wikipedia.org/wiki/AC/DC">
+                    <img src="./imagenes/ACDC2.jpg"
+                    alt="ACDC" /></img></a>
+                <div class="espacio"></div>
+                <p>Maroon5</p>
+                <a title="Wikipedia" href="https://es.wikipedia.org/wiki/Belinda_(cantante)">
+                    <img src="./imagenes/Maroon52.jpg"
+                    alt="Maroon5" /></img></a>
+            </div>
+        </article>
+    </section>
 </body>
 </html>

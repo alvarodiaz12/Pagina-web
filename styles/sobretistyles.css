@@ -211,6 +211,11 @@ h1{
     vertical-align: middle;
 }
 
+.espacio {
+    height: 25px;
+    width: 60%;
+}
+
 @media screen and (max-width: 480px) {
 
     .navegacion{
