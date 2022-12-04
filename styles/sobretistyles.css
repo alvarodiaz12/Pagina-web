@@ -107,7 +107,7 @@ p{
     flex-direction: column;
     width: 91.7%;
     height: auto;
-    padding: 2%;
+    padding: 1%;
     background-color:azure;
     border-style: solid;
     box-sizing: border-box;
@@ -133,12 +133,12 @@ p{
 }
 
 .hijocentral1A>p{
-    margin-top: 3%;
     margin-left: 3%;
+    font-family: fantasy;
 }
 
 .hijocentral1A>button{
-    margin-top: 5.7%;
+    margin-top: 1%;
     vertical-align: middle;
 }
 
@@ -161,7 +161,7 @@ p{
 }
 
 .hijocentral1B>button{
-    margin-top: 7.2%;
+    margin-top: 18.5%;
     vertical-align: middle;
 }
 
@@ -193,7 +193,7 @@ p{
 }
 
 .hijocentral2A>button{
-    margin-top: 16.5%;
+    margin-top: 1.5%;
     vertical-align: middle;
 }
 
@@ -220,7 +220,7 @@ p{
 }
 
 .hijocentral2B>button{
-    margin-top: 12.5%;
+    margin-top: 20.5%;
     vertical-align: middle;
 }
 
@@ -234,27 +234,22 @@ p{
     .contenedor{
         width: 100%;
     }
-    .hijocentral2B>button{
-        margin-top: 15%;
-    }
   }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1300px) {
     .hijocentral2B>button{
         margin-top: 22.5%;
+    }
+    p{
+        font-size: 80%;
     }
 }
 
 @media screen and (max-width: 900px) {
-    p{
-        font-size: 80%;
-    }
     .hijocentralletra{
         font-size: 350%;
     }
-    input{
-        font-size: 80%;
-    }
+
     button{
         height: 25;
     }
