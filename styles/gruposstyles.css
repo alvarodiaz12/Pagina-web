@@ -224,4 +224,7 @@ img:hover{
     .espacio{
         height: 50px;
     }
+    .centro>p{
+        font-size: 450%;
+    }
   }
