@@ -1,18 +1,20 @@
-*{
-    margin: 0;
-    padding: 0;
+body{
+    background: linear-gradient(rgba(0,0,0,1) 1%, rgba(255,102,0,1) 100%);
 }
+
 header{
-    height: 18vh;
+    height:auto;
     display:flex;
     align-items: center;
     justify-content: space-around;
     background-color:linear-gradient(rgba(0,0,0,1) 1%, rgba(255,102,0,1) 100%);
+    margin-top: 1%;
 }
 
 header>img{
-    width: 400px;
-    height: 130px;
+    width: auto;
+    height: auto;
+    border-style: solid;
 }
 
 header:hover{
@@ -23,8 +25,9 @@ header:hover{
     display:flex;
     justify-content: space-around;
     align-items: center;
-    height: 8vh;
+    height: 100%;
     background-color:linear-gradient(rgba(0,0,0,1) 3%, rgba(255,102,0,1) 100%);
+    margin-top: 2%;
 }
 
 a{
@@ -38,7 +41,7 @@ a:hover{
 
 .efectosnav{
     border: 1px black solid;
-    padding: 5px;
+    padding: 1%;
     background: linear-gradient( rgba(255,0,0,1) 22%, rgba(255,179,0,1) 100%);
     border-radius: 30px;
     box-shadow: 2px 2px rgb(56, 26, 1);
@@ -60,29 +63,30 @@ img:hover{
     transform: scale(0.9);
 }
 
-
-body{
-    background: linear-gradient(rgba(0,0,0,1) 1%, rgba(255,102,0,1) 100%);
-    width: 95vw;
-    height: 100%;
-}
-
-h1{
-    color:rgb(216, 166, 3)
+.contenedor{
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    float: left;
+    flex-wrap: wrap;
 }
 
 .principal{
     display: flex;
+    box-sizing: border-box;
 }
 
-
+p{
+    font-family:fantasy;
+}
 
 .central{
     display: flex;
     flex-direction: column;
     width: 80%;
     height: auto;
-    padding-left: 12%;
+    margin-left: 12%;
+    box-sizing: border-box;
 }
 
 
@@ -94,6 +98,8 @@ h1{
     color:rgb(216, 166, 3);
     font-size: 480%;
     justify-content: center;
+    box-sizing: border-box;
+    font-family: fantasy;
 }
 
 .hijocentral{
@@ -104,23 +110,26 @@ h1{
     padding: 2%;
     background-color:azure;
     border-style: solid;
+    box-sizing: border-box;
 }
 
 .hijocentral1{
     display: flex;
     width: 100%;
     height: 500px;
+    box-sizing: border-box;
 }
 
 .hijocentral1A{
     display: flex;
     flex-direction:column;
-    width: 47%;
+    width: 48%;
     height: 100%;
     color:black;
     font-size: 100%;
     margin-right: 1%;
     border-style: solid;
+    box-sizing: border-box;
 }
 
 .hijocentral1A>p{
@@ -143,6 +152,7 @@ h1{
     margin-left: 1%;
     border-style: solid;
     vertical-align: middle;
+    box-sizing: border-box;
 }
 
 .hijocentral1B>p{
@@ -160,6 +170,7 @@ h1{
     display: flex;
     width: 100%;
     height: 500px;
+    box-sizing: border-box;
 }
 
 
@@ -173,6 +184,7 @@ h1{
     margin-right: 1%;
     border-style: solid;
     margin-top: 2%;
+    box-sizing: border-box;
 }
 
 .hijocentral2A>p{
@@ -195,6 +207,7 @@ h1{
     margin-left: 1%;
     border-style: solid;
     margin-top: 2%;
+    box-sizing: border-box;
 }
 
 .hijocentral2B>p{
@@ -214,25 +227,70 @@ h1{
 .espacio {
     height: 25px;
     width: 60%;
+    box-sizing: border-box;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1400px) {
+    .contenedor{
+        width: 100%;
+    }
+    .hijocentral2B>button{
+        margin-top: 15%;
+    }
+  }
 
+@media screen and (max-width: 1150px) {
+    .hijocentral2B>button{
+        margin-top: 22.5%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    p{
+        font-size: 80%;
+    }
+    .hijocentralletra{
+        font-size: 350%;
+    }
+    input{
+        font-size: 80%;
+    }
+    button{
+        height: 25;
+    }
+    .hijocentral2B>button{
+        margin-top: 30%;
+    }
+  }
+
+@media screen and (max-width: 600px) {
     .navegacion{
         display:flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        height: 50vh;background-color: rgb(238, 209, 26);
+        height: 50vh;
+        margin-top: 8%;
     }
     .efectosnav{
         margin: 5px;
     }
-
-  }
-
-  @media screen and (min-width: 1000px) {
-    header>p{
-        font-size: 25px;
+    .central{
+        margin-left: 5%;
+        width: 100%;
+    }
+    .hijocentralletra{
+        padding-left: 5%;
+        font-size: 220%;
+    }
+    header>img{
+        height: 90%;
+        width: 90%;
+    }
+    button{
+        height: 20;
+    }
+    .hijocentral2B>button{
+        margin-top: 35%;
     }
   }
