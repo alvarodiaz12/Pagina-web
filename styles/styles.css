@@ -22,10 +22,6 @@ header>img{
     border-style: solid;
 }
 
-header:hover{
-    opacity: 1;
-}
-
 .navegacion{
     display:flex;
     justify-content: space-around;
@@ -167,7 +163,6 @@ img:hover{
   }
 
   @media screen and (max-width: 600px) {
-    
     .navegacion{
         display:flex;
         flex-direction: column;
@@ -180,7 +175,10 @@ img:hover{
         margin: 5px;
     }
     .central{
-        padding-left: 2%;
+        padding-left: 10%;
+    }
+    .hijocentralletra{
+        padding-left: 25%;
     }
     header>img{
         height: 90%;

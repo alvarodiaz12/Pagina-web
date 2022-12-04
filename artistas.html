@@ -3,67 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejemplo de flex</title>
+    <meta name="viewport" content="width=device-width,users-calable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+    <title>Artistas</title>
     <link rel="stylesheet" href="./styles/artistasstyles.css">
 </head>
 <body>
-    <header>
-        <img src="./imagenes/Logo.png"></img>
-    </header>
-    <nav class="navegacion">
-        <p class="efectosnav"><a href="./index.html">Inicio</a></p>
-        <p class="efectosnav"><a href="./artistas.html">Artistas</a></p>
-        <p class="efectosnav"><a href="./grupos.html">Bandas</a></p>
-        <p class="efectosnav"><a href="./noticias.html">Noticias</a></p>
-        <p class="efectosnav"><a href="./conciertos.html">Conciertos</a></p>
-        <p class="efectosnav"><a href="./sobreti.html">Sobre ti</a></p>
-    </nav>
+    <div class="contenedor">
+        <header>
+            <img src="./imagenes/Logo.png"></img>
+        </header>
+        <nav class="navegacion">
+            <p class="efectosnav"><a href="./index.html">Inicio</a></p>
+            <p class="efectosnav"><a href="./artistas.html">Artistas</a></p>
+            <p class="efectosnav"><a href="./grupos.html">Bandas</a></p>
+            <p class="efectosnav"><a href="./noticias.html">Noticias</a></p>
+            <p class="efectosnav"><a href="./sobreti.html">Sobre ti</a></p>
+        </nav>
 
-    <section class="principal">
-        <article class="central">
-            <div class="hijocentralletra">
-                <svg viewBox="0 0 960 300">
-                    <symbol id="s-text">
-                      <text text-anchor="middle" x="50%" y="80%">Artistas</text>
-                    </symbol>
-                
-                    <g class = "g-ants">
-                      <use xlink:href="#s-text" class="text-copy"></use>
-                      <use xlink:href="#s-text" class="text-copy"></use>
-                      <use xlink:href="#s-text" class="text-copy"></use>
-                      <use xlink:href="#s-text" class="text-copy"></use>
-                      <use xlink:href="#s-text" class="text-copy"></use>
-                    </g>
-                </svg>
-            </div>
-            <div class="centro">
-                <p>Bruno Mars</p>
-                <a title="Wikipedia" href="https://es.wikipedia.org/wiki/Bruno_Mars">
-                    <img src="./imagenes/BrunoMarsDibujo.jpg"
-                    alt="BrunoMars" /></img></a>
-                <div class="espacio"></div>
-                <p>David Guetta</p>
-                <a title="Wikipedia" href="https://es.wikipedia.org/wiki/David_Guetta">
-                    <img src="./imagenes/DavidGuetta2.jpeg"
-                    alt="DavidGuetta" /></img></a>
-                <div class="espacio"></div>
-                <p>Eminem</p>
-                <a title="Wikipedia" href="https://es.wikipedia.org/wiki/Eminem">
-                    <img src="./imagenes/Eminem2.jpg"
-                    alt="Eminem" /></img></a>
-                <div class="espacio"></div>
-                <p>Rosalía</p>
-                <a title="Wikipedia" href="https://es.wikipedia.org/wiki/Rosal%C3%ADa_(cantante)">
-                    <img src="./imagenes/Rosalía.jfif"
-                    alt="Rosalía" /></img></a>
-                <div class="espacio"></div>
-                <p>Belinda</p>
-                <a title="Wikipedia" href="https://es.wikipedia.org/wiki/Belinda_(cantante)">
-                    <img src="./imagenes/Belinda.jpg"
-                    alt="Belinda" /></img></a>
-            </div>
-        </article>
-    </section>
+        <section class="principal">
+            <article class="central">
+                <div class="hijocentralletra">
+                    <svg viewBox="0 0 960 300">
+                        <symbol id="s-text">
+                        <text text-anchor="middle" x="50%" y="80%">Artistas</text>
+                        </symbol>
+                    
+                        <g class = "g-ants">
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        </g>
+                    </svg>
+                </div>
+                <div class="centro">
+                    <p>Bruno Mars</p>
+                    <a title="Wikipedia" href="https://es.wikipedia.org/wiki/Bruno_Mars">
+                        <img src="./imagenes/BrunoMarsDibujo.jpg"
+                        alt="BrunoMars" /></img></a>
+                    <div class="espacio"></div>
+                    <p>David Guetta</p>
+                    <a title="Wikipedia" href="https://es.wikipedia.org/wiki/David_Guetta">
+                        <img src="./imagenes/DavidGuetta2.jpeg"
+                        alt="DavidGuetta" /></img></a>
+                    <div class="espacio"></div>
+                    <p>Eminem</p>
+                    <a title="Wikipedia" href="https://es.wikipedia.org/wiki/Eminem">
+                        <img src="./imagenes/Eminem2.jpg"
+                        alt="Eminem" /></img></a>
+                    <div class="espacio"></div>
+                    <p>Rosalía</p>
+                    <a title="Wikipedia" href="https://es.wikipedia.org/wiki/Rosal%C3%ADa_(cantante)">
+                        <img src="./imagenes/Rosalía.jfif"
+                        alt="Rosalía" /></img></a>
+                    <div class="espacio"></div>
+                    <p>Belinda</p>
+                    <a title="Wikipedia" href="https://es.wikipedia.org/wiki/Belinda_(cantante)">
+                        <img src="./imagenes/Belinda.jpg"
+                        alt="Belinda" /></img></a>
+                </div>
+            </article>
+        </section>
+    </div>    
 </body>
 </html>
