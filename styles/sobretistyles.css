@@ -89,8 +89,6 @@ p{
     box-sizing: border-box;
 }
 
-
-
 .hijocentralletra{
     display: flex;
     width: 100%;
@@ -165,7 +163,6 @@ p{
     vertical-align: middle;
 }
 
-
 .hijocentral2{
     display: flex;
     width: 100%;
@@ -193,7 +190,7 @@ p{
 }
 
 .hijocentral2A>button{
-    margin-top: 1.5%;
+    margin-top: 12%;
     vertical-align: middle;
 }
 
@@ -284,20 +281,17 @@ p{
         height: 90%;
         width: 90%;
     }
-    button{
-        height: 20;
-    }
     .hijocentral2B>button{
-        margin-top: 60%;
+        margin-top: 50%;
     }
     .hijocentral1B>button{
         margin-top: 50%;
     }
   }
 
-  @media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {
     .hijocentral2B>button{
-        margin-top: 75%;
+        margin-top: 60%;
     }
   }
 
