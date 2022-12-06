@@ -138,7 +138,7 @@ p{
 }
 
 .hijocentral1A>button{
-    margin-top: 1%;
+    margin-top: 10%;
     vertical-align: middle;
 }
 
@@ -161,7 +161,7 @@ p{
 }
 
 .hijocentral1B>button{
-    margin-top: 18.5%;
+    margin-top: 16.5%;
     vertical-align: middle;
 }
 
@@ -254,7 +254,10 @@ p{
         height: 25;
     }
     .hijocentral2B>button{
-        margin-top: 30%;
+        margin-top: 50%;
+    }
+    .hijocentral1B>button{
+        margin-top: 40%;
     }
   }
 
@@ -275,7 +278,6 @@ p{
         width: 100%;
     }
     .hijocentralletra{
-        padding-left: 5%;
         font-size: 220%;
     }
     header>img{
@@ -286,6 +288,16 @@ p{
         height: 20;
     }
     .hijocentral2B>button{
-        margin-top: 35%;
+        margin-top: 60%;
+    }
+    .hijocentral1B>button{
+        margin-top: 50%;
     }
   }
+
+  @media screen and (max-width: 500px) {
+    .hijocentral2B>button{
+        margin-top: 75%;
+    }
+  }
+
