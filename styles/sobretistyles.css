@@ -85,7 +85,7 @@ p{
     flex-direction: column;
     width: 80%;
     height: auto;
-    margin-left: 12%;
+    margin-left: 13%;
     box-sizing: border-box;
 }
 
@@ -95,7 +95,7 @@ p{
     height: 10%;
     color:rgb(216, 166, 3);
     font-size: 480%;
-    justify-content: center;
+    margin-left: 30%;
     box-sizing: border-box;
     font-family: fantasy;
 }
